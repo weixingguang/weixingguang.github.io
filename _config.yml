@@ -6,9 +6,9 @@ url: http://www.hifreud.com
 resume_site: http://www.hifreud.com/Resume.io/
 github: https://github.com/weixingguang
 baseurl: ""
-description: Actually, less is more!
+description: Knowledge is to share!
 meta_description:
-motto: Knowledge is to share.
+motto: Knowledge is to share!
 banner:
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
