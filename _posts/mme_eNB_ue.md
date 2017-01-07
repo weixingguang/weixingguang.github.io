@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  "Amarisoft MME + OAI eNB + srsUE"
-date:   2017-1-7 22:58:01 +0800
-categories: SDR
-tag: SDR
+title:  "Welcome to"
+date:   2014-11-17 13:31:01 +0800
+categories: jekyll
+tag: jekyll
 ---
-
 
 * content
 {:toc}
-
 
 
 Recently, I have successfully connected srsUE to OAI eNB and Amarisoft MME.
