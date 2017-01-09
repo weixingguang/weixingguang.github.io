@@ -1,36 +1,47 @@
-# Site settings
-name: SDR LTE
-email: jxwxg@foxmail.com
-author: Xingguang Wei
-url: http://www.hifreud.com
-resume_site: http://www.hifreud.com/Resume.io/
-github: https://github.com/weixingguang
-baseurl: ""
-description: Knowledge is to share!
-meta_description:
-motto: Knowledge is to share!
-banner:
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title.html
 paginate: 10
+markdown: redcarpet
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+# 作者信息
+author: 
+  name: Xingguang Wei
+  email: jxwxg@foxmail.com
+  link: blog.csdn.net/jxwxg
+#weibo: http://weibo.com/orangeissweet
+  github: http://github.com/weixingguang
+#music: http://site.douban.com/linanya
+#linkedin: https://www.linkedin.com/pub/anya-lin/81/91/232
 
-github_username: weixingguang
-highlighter: rouge
+# 站点信息
+title: X. Wei's Blog
+description: Knowledge is to share
+url: http://weixingguang.github.io
+rss_url: /pages/atom.xml
 
-# Build settings
-markdown: kramdown
+# gavatar头像及Favicon
+gavatar: /public/img/deer3.png
+favicon: /public/img/deer3.png
 
-FB:
-  comments :
-    provider : duoshuo
-    duoshuo:
-        short_name : luoyan35714
-    disqus :
-        short_name : freudkang
-    # facebook :
-    #   appid : 123
-    #   num_posts: 5
-    #   width: 580
-    #   colorscheme: light
+# google analytics 设置
+ga:
+  id: UA-54262064-1 
+  url: painterlin.com
+
+# disqus 设置
+disqus:
+  shortname: painterlin
+
+# 主题设置，自动激活某个标签
+active: SDR
+
+# 首页除了最新文章外显示分类
+cates: 
+  - Sdr
+#- LaTeX
+
+# 中文本地化
+locals:
+  tags: Tags
+  about: About
+  newest: Newest
+  archive: Archive

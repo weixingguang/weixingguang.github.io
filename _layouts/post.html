@@ -1,36 +1,25 @@
 ---
-layout: default
+layout: base
 ---
-<div class="container docs-container">
-  <div class="row">
-    <div class="col-md-3">
-      <div class="sidebar hidden-print" role="complementary">
-        {% include lefttree.html %} 
-      </div>
+<div class="row">
+  <div class="col-md-13 aside3-title">
+    <br>
+    <h2 id="#identifier">{{ page.title }}</h2>
+    {{ page.date | date:"%Y年%m月%d日" }}
+  </div>
+  <div class="col-md-13 aside3-content">
+    <hr>
+    <div id="content">
+      {{ content }}
     </div>
-    <div class="col-md-9" role="main">
-      <div class="panel docs-content">
-        <div class="wrapper">
-            <header class="post-header">
-              <h1 class="post-title">{{ page.title }}</h1>
-              <!--
-                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-              -->
-              <div class="meta">Posted on <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span> By <a target="_blank" href="{{site.url}}">{{ site.author }}</a></div>
-              <br />
-            </header>
-            <article class="post-content">
-              {{ content }}
-            </article>
-        </div>
-      </div>
-      <div class="panel docs-content">
-        <article class="post-content">
-          <div class="wrapper">
-            {% include LessOrMore/comments %} 
-          </div>
-        </article>
-      </div>
+    <hr>
+    {% include disqus.html %}
+  </div>
+  <!-- 目录 -->
+  <div id="content_table" style="position:fixed;right:20px;top:120px;display:none;">
+    <div class="panel panel-success">
+      <div class="panel-body" id="nav"></div>
     </div>
   </div>
 </div>
+
