@@ -6,7 +6,7 @@ markdown: redcarpet
 author: 
   name: Xingguang Wei
   email: jxwxg@foxmail.com
-  link: blog.csdn.net/jxwxg
+  link: http://blog.csdn.net/jxwxg
 #weibo: http://weibo.com/orangeissweet
   github: http://github.com/weixingguang
 #music: http://site.douban.com/linanya
@@ -25,7 +25,7 @@ favicon: /public/img/deer3.png
 # google analytics 设置
 ga:
   id: UA-54262064-1 
-  url: painterlin.com
+  url: weixingguang.com
 
 # disqus 设置
 disqus:
